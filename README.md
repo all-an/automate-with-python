@@ -6,25 +6,29 @@ This repository contains Python scripts for automating various tasks.
 
 1. Clone the repository:
 
+```bash
 git clone https://github.com/your-username/automating-with-python.git
-
+```
 
 2. Install the required dependencies:
 
+```bash
 pip install -r requirements.txt
-
+```
 
 ## Usage
 
 1. Navigate to the project directory:
 
+```bash
 cd automating-with-python
-
+```
 
 2. Run the desired script:
 
+```bash
 python script.py
-
+```
 
 ## Features
 
