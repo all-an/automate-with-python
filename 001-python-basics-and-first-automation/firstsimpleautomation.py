@@ -17,9 +17,9 @@ print(message)
 os.system("start cmd")
 time.sleep(0.5)
 
-test = pyautogui.getWindowsWithTitle("cmd")[0]
+""" test = pyautogui.getWindowsWithTitle("cmd")[0]
 
-test.maximize()
+test.maximize() """
 
 pyautogui.write(message, interval = 0.01)
 pyautogui.press('enter')
@@ -29,9 +29,9 @@ pyautogui.press('enter')
 
 time.sleep(3)
 
-test.close()
+#test.close()
 
-print(test)
+#print(test)
 
 #os.system("start chrome")
 
