@@ -20,3 +20,5 @@ print(print("test"))
 print(None == False)
 print(None == True)
 print(None == '')
+
+print('cat', 'dog', 'mouse', 'owl', 'snake', 'duck', sep=' ALLAN ')
