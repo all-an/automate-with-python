@@ -23,3 +23,10 @@ print('dragon' in spam)
 
 print(spam[1:15])
 print(spam[-16])
+
+name1 = " bob "
+name2 = " alice "
+
+print(" Does " + name2 + ' loves ' + name1 + ' ?')
+
+print("Hello %s and %s" % (name1, name2))
