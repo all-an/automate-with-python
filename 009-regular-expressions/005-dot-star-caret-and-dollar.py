@@ -47,3 +47,58 @@ anythingDotWordRegex = re.compile(r'.{1,2}at') # dot means any character followe
 match = anythingDotWordRegex.findall('manat cow avat alkj uat')
 
 print(match) # output ['anat', 'avat', ' uat']
+
+nameRegex = re.compile(r'First Name: (.*) , Last Name: (.*)')
+
+message = 'First Name: Allan , Last Name: Pereira'
+
+match = nameRegex.findall(message)
+
+print(match)
+print(match[0])
+print(match[0][0])
+print(match[0][1])
+
+nameRegex = re.compile(r'First Name: (.*?) , Last Name: (.*?)')
+
+message = 'First Name: Allan , Last Name: Pereira'
+
+match = nameRegex.findall(message)
+
+print(match)
+print(match[0])
+print(match[0][0])
+print(match[0][1])
+
+serve_message = '<To serve humans> for dinner>'
+
+nongreedy_nameregex = re.compile(r'<(.*?)>')
+print(nongreedy_nameregex.findall(serve_message)) # output:  ['To serve humans']
+
+serve_message = '<To serve humans> for dinner>'
+
+nongreedy_nameregex = re.compile(r'<(.*)>')
+print(nongreedy_nameregex.findall(serve_message)) # output:  ['To serve humans> for dinner']
+
+print('-----------------------------------------------------------------------')
+
+prime = 'Serve the public trust\nProtect the Innocent\nUpload the law'
+print(prime)
+
+robocopRegex = re.compile(r'.*')
+
+print(robocopRegex.findall(prime)) # greedy will match only  match='Serve the public trust'
+
+robocopRegex = re.compile(r'.*', re.DOTALL)
+
+print(robocopRegex.findall(prime))
+
+robocopRegex = re.compile(r'.*?', re.DOTALL)
+
+print(robocopRegex.findall(prime))
+
+vowelRegex = re.compile(r'[aeiouy]', re.I) # I will ignore case and output lower and upper case
+
+print(vowelRegex.findall('Al, whY so much RobOcop'))
+
+
