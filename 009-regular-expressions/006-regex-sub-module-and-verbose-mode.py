@@ -36,4 +36,17 @@ message = """
 match = verbose_regex.findall(message)
 print(match)
 
+verbose_regex = re.compile(r'''
+(\d\d\d-)|   # area code
+(\(\d\d\d)   # first three digits
+-            # second dash
+\d\d\d\d     # last four digits 
+\sx\d{2,4}   # extension like x1234                                                                     
+''', re.I | re.DOTALL | re.VERBOSE)
+
+message = """
+'Is this a phone? 345-342-2341 and this 232-334-6666'
+"""
+
+match = verbose_regex.findall(message)
 print(match)
