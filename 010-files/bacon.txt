@@ -1,2 +1,1 @@
-bacon is not a vegetable
-bacon is delicious
+Hello Allan!
