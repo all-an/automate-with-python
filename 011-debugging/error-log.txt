@@ -1,0 +1,18 @@
+
+--------------------------------Current date and time = 2023-10-22 18:19:13.390313
+Traceback (most recent call last):
+  File "C:\Users\Public\code\automate-with-python\011-debugging\001-2-traceback.py", line 8, in <module>
+    raise Exception('Allan error message')
+Exception: Allan error message
+
+--------------------------------Current date and time = 2023-10-22 18:19:17.425344
+Traceback (most recent call last):
+  File "C:\Users\Public\code\automate-with-python\011-debugging\001-2-traceback.py", line 8, in <module>
+    raise Exception('Allan error message')
+Exception: Allan error message
+
+--------------------------------Current date and time = 2023-10-22 18:19:26.751097
+Traceback (most recent call last):
+  File "C:\Users\Public\code\automate-with-python\011-debugging\001-2-traceback.py", line 8, in <module>
+    raise Exception('Allan error message')
+Exception: Allan error message
