@@ -14,3 +14,10 @@ except:
     print('Error message was printed to error-log.txt file')
 
 print(os.getcwd())
+
+print('--------------------------------------- ASSERTIONS ---------------------------------------------')
+
+assert True, "This is an error message"
+
+assert False, 1 == 2
+
