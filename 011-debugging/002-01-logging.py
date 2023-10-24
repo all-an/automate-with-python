@@ -1,7 +1,11 @@
 import logging
 
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
-print(logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s'))
+# logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# output log to a file
+logging.basicConfig(filename='my_logging_file.json',level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# print(logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s'))
 
 # factorial 4
 print(1 * 2 * 3 * 4)

@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./011-debugging/003-debugg-multiple-files"
+    ]
+}

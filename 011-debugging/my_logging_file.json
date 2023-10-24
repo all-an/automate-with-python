@@ -1,0 +1,18 @@
+2023-10-24 19:31:04,662 - DEBUG - start of program
+2023-10-24 19:31:04,662 - INFO - start of program
+2023-10-24 19:31:04,662 - WARNING - start of program
+2023-10-24 19:31:04,662 - ERROR - start of program
+2023-10-24 19:31:04,662 - CRITICAL - start of program
+2023-10-24 19:31:04,662 - DEBUG - ----------------START-------------------------
+2023-10-24 19:31:04,662 - DEBUG - i is 1 and total is 1
+2023-10-24 19:31:04,662 - DEBUG - i is 2 and total is 2
+2023-10-24 19:31:04,662 - DEBUG - i is 3 and total is 6
+2023-10-24 19:31:04,662 - DEBUG - i is 4 and total is 24
+2023-10-24 19:31:04,662 - DEBUG - ----------------END OF FACTORIAL-------------------------
+2023-10-24 19:31:04,662 - DEBUG - i is 1 and total is 1
+2023-10-24 19:31:04,662 - DEBUG - i is 2 and total is 2
+2023-10-24 19:31:04,662 - DEBUG - i is 3 and total is 6
+2023-10-24 19:31:04,662 - DEBUG - i is 4 and total is 24
+2023-10-24 19:31:04,662 - DEBUG - i is 5 and total is 120
+2023-10-24 19:31:04,662 - DEBUG - ----------------END OF FACTORIAL-------------------------
+2023-10-24 19:31:04,662 - DEBUG - end of program
