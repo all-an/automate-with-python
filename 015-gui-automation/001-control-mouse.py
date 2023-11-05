@@ -14,8 +14,11 @@ while mouse_position[0] != 0:
     mouse_position_now = pyautogui.position()
     if mouse_position != mouse_position_now:
         mouse_position = mouse_position_now
-        print(mouse_position[0])
+        print('X = ' + str(mouse_position[0]))
+        print('Y = ' + str(mouse_position[1]))
         print(mouse_position)
+        
+pyautogui.displayMousePosition()
 
 pyautogui.moveTo(1435, 297)
 
