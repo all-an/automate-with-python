@@ -12,8 +12,9 @@ git clone https://github.com/your-username/automating-with-python.git
 
 2. Install the required dependencies:
 
+Example:
 ```bash
-pip install -r requirements.txt
+pip install pyautogui
 ```
 
 ## Usage
